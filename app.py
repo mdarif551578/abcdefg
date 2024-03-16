@@ -59,7 +59,7 @@ def delete(todo_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5820)
+    app.run(debug=True, port=8000)
 
 
 
