@@ -11,7 +11,7 @@ from mongoengine import connect, Document, StringField, BooleanField
 
 app = Flask(__name__, template_folder="templates", static_folder="static", static_url_path="/static")
 
-connect(db='mydb', host='mongodb://localhost:27017')
+connect(db='mydb', host='mongodb+srv://mdarif:a1QqK6EeUKQkyzZC@cluster0.o8ibzro.mongodb.net/')
 
 class Todo(Document):
     title = StringField(required=True)
